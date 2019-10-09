@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--START Header-->
+    <header >
+        <div class="headerLogo">Logo</div>
+        <div class="headerOptions">
+            <ul>
+                <li>Contacto</li>
+                <li>Nosotros</li>
+                <li>Menú</li>
+                <button class="playButton">Servicio a domicilio</button>
+            </ul>
+        </div>
+    </header>
+    <!-- END Header-->
+    <div id="container">
+        <!--START Highlight Container-->
+<div class="localizabar">
+<div class="encuentranos"><a href="https://goo.gl/maps/MoxL4F127fHG2fuw7"target="_blank"><h3>Encuéntranos</h3></a></div>
+        </div>
+        <div class="highlightContainer">
+
+                <img id="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQme7GBT6zYDWyruVQ73Rjr3u9yrRC3gcPSWquON-Pdh0M6er73" style="widows: 100%; height:80vh">
+                <p></p>
+                
+                <script>
+                
+                var imageSources = ["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyuddG49b1pC_UBIDgG83E5LHHrju27tLkxPl8JzMpq99E9HEl", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQme7GBT6zYDWyruVQ73Rjr3u9yrRC3gcPSWquON-Pdh0M6er73"]
+                
+                var index = 0;
+                setInterval (function(){
+                  if (index === imageSources.length) {
+                    index = 0;
+                  }
+                  document.getElementById("image").src = imageSources[index];
+                  index++;
+                } , 2000);
+                
+                </script>
+
+                <div class="mainTitle">Header Móvil</div>
+                <div class="secondaryTitle">Just Another Title</div>
+                <div class="description">A very short description about this section.</div>
+                <center>
+                <button class="containerButton">Conoce más</button>
+            </center>
+                <div class="optionButtons">
+                </div>
+        </div>
+        <!-- END Highlight Container-->
+        <!--START List Container-->
+        <div class="listContainer">
+        
+        <!--END List Container-->
+    </div>
+</body>
+</html>
+
+<!--INCLUIR FORMULARIO  "atendemos evento"-->
+<form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" />
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg"></textarea>
+    </div>
+    
+    <div class="button">
+        <button type="submit">Send your message</button>
+    </div>
+</form>
+<!--INCLUIR TESTIMONIOS-->
