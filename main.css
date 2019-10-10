@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    font-family: sans-serif;
+    font-family:'Roboto', sans-serif;
     color:white;
 }
 header {
@@ -32,6 +32,7 @@ header {
     float: right;
     margin-right: 8%;
     list-style: none;
+    color:whitesmoke;
 }
 #container {
     float: left;
@@ -39,31 +40,13 @@ header {
     margin-left: 4%;
     margin-right: 4%;
 }
-.highlightContainer {
-    width: 100%;
-    float: left;
-    height: 80vh;
-    background-color:none;
-    padding-left: 5%;
-}
-
-.containerButton {
-    font-weight: bold;
-    background-color: #C4302B;
-    color: white;
-    height: 52px;
-    width: 100px;
-    border-color: #db0000;
-    font-size: 15px;
-    text-transform: uppercase;
-    margin-top:15%;
-    margin-left: -4%;
-}
 
 .mainTitle {
     font-size: 51px;
+    color:white;
     text-transform: uppercase;
     margin-top: 4%;
+
 }
 .secondaryTitle {
     font-weight: bold;
@@ -107,17 +90,45 @@ header {
     height: 79%;
     width: 18%;
     margin-left: 2%;
-    background-color: gray;
+    background-color:white;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 form {
     /* Sólo para centrar el formulario a la página */
-    margin: 0 auto;
+    margin: 1%;
     width: 400px;
     /* Para ver el borde del formulario */
     padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
 }
 
 form div + div {
@@ -163,13 +174,134 @@ image {
 
 }
 
-.localizabar {
-    width: 100%;
-    float: left;
-    background: #231f20;
-    padding: 9px 5;
+body {
+    background-color: #444442;
+    padding-top: 85px;
 }
 
-encuentranos {
-    color:whitesmoke;
+h1 {
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif, 'arial';
+    font-weight: 400;
+    font-size: 20px;
+    color: #9b9b9b;
+    line-height: 1.5;
+}
+
+/* ///// inputs /////*/
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px){
+    .styled-input {
+        width:100%;
+    }
+}
+
+.styled-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide { 
+    width: 650px;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+    float:right;
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+              0 2px 10px 0 rgba(0,0,0,0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+              0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+@media (max-width: 768px) {
+    .submit-btn {
+        width:100%;
+        float: none;
+        text-align:center;
+    }
+}
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
 }
