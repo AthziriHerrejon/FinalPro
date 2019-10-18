@@ -11,12 +11,17 @@ header {
     padding-top: 1%;
 }
 
-.headerLogo {
+.littleLogo {
     float: left;
-    width: 30%;
+    width: 30%!important;
+    height: 10% !important;
     font-size: 14px;
     margin-top: 1%;
-    color:whitesmoke;
+}
+ 
+.header-image #description {
+    display: block;
+    overflow: hidden;
 }
 .headerOptions {
     float:left;
@@ -48,15 +53,15 @@ header {
 .optionButtons {
     margin-top: 3%;
 }
-.playButton {
-    font-weight: bold;
-    background-color: #AA272F;
-    color: white;
-    height: 52px;
-    width: 160px;
-    border-color: #AA272F;
-    font-size: 15px;
-}
+.btn-danger {
+font-weight: bold;
+font-family: sans-serif;
+color:#d9534f;
+height: 52px;
+width: 180px;
+font-size: 15px!important;
+border-color: none;
+  }
 
 .listContainer {
     float: left;
