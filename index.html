@@ -10,7 +10,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Inicio</title>
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <title>El Sinaloense</title>
 </head>
 <style type="text/css">
     body { background:#151312!important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
@@ -32,21 +40,53 @@
     <div id="container">
         <!--START Highlight Container-->
           <body>
-          
           <ul>
             <li><a class="direccion"><a href="https://goo.gl/maps/MoxL4F127fHG2fuw7"target="_blank">Dirección</a>
           </ul>
-
           <!--Se acaba barra de dirección !-->
         <!-- END Highlight Container-->
         <!--START List Container-->
         <div class="listContainer">
-                <img src=https://media.gettyimages.com/photos/food-story-on-posole-on-wednesday-december-11-2013-some-of-the-side-picture-id456611449?s=2048x2048>
-        <!--END List Container-->
-    </div>
-</body>
-</html>
+            <!--CARRUSEL INICIO-->
+            <div class="bs-example">
+                    <div id="myCarousel" class="carousel slide" data-interval="6500" data-ride="carousel">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>   
+                       <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item carousel-fade">
+                                <img src=https://media.gettyimages.com/photos/food-story-on-posole-on-wednesday-december-11-2013-some-of-the-side-picture-id456611449?s=2048x2048>
+                                <div class="carousel-caption">
+                                
+                                </div>
+                            </div>
+                            <div class="item carousel-fade">
+                                <h2>Slide 2</h2>
+                                <div class="carousel-caption">
 
+                                </div>
+                            </div>
+                            <div class="item carousel-fade">
+                                <h2>Slide 3</h2>
+                                <div class="carousel-caption">
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel nav -->
+                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+                <!--FIN CARRUSEL-->
 <!--INCLUIR FORMULARIO  "atendemos evento"-->
 <form action="/my-handling-form-page" method="post">
     <div class="container">
@@ -88,7 +128,50 @@
     </div>
     
 </form>
-<!--INCLUIR TESTIMONIOS-->
+<!--FIN DEL FORMULARIO-->
+                <!--INICIO TESTIMONIO-->
+                <body class="carousel-bg">
+                        <!-- Quote Image -->
+                        <div>
+                          <img src="https://i.imgur.com/gZ5HY0U.png" class="img-responsive quote-image">
+                        </div>
+                        <!-- Carousel Start below -->
+                        <div id="carousel1" class="carousel slide testimonial-style" data-ride="carousel">
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel1" data-slide-to="1"></li>
+                            <li data-target="#carousel1" data-slide-to="2"></li>
+                          </ol>
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <div class="carousel-caption testimonial-caption-style">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat diam.</p>
+                                <p class="testimonial-authors">Person 1</p>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="carousel-caption testimonial-caption-style">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat diam.</p>
+                                <p class="testimonial-authors">Person 2</p>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="carousel-caption testimonial-caption-style">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat diam.</p>
+                                <p class="testimonial-authors">Person 3</p>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <!-- Controls -->
+                      
+                          <a class="left carousel-control" href="#carousel1" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                          <a class="right carousel-control" href="#carousel1" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                        </div>
+                      </body>
+                <!--FIN TESIMONIO-->
   <!-- Footer -->
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2019 Copyright:

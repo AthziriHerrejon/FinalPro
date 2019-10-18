@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    font-family:'Roboto', sans-serif;
+    color:white;
+}
+header {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding-top: 1%;
+}
+
+.headerLogo {
+    float: left;
+    width: 30%;
+    font-size: 14px;
+    margin-top: 1%;
+    color:whitesmoke;
+}
+.headerOptions {
+    float:left;
+    width: 70%;
+    text-align: right;
+}
+
+.headerOptions ul {
+    width: 100%;
+}
+.headerOptions ul li {
+    width: 12%;
+    float: right;
+    margin-right: 8%;
+    list-style: none;
+    color:whitesmoke;
+}
+#container {
+    float: left;
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.mainTitle {
+    font-size: 51px;
+    color:white;
+    text-transform: uppercase;
+    margin-top: 4%;
+
+}
+.secondaryTitle {
+    font-weight: bold;
+    font-size: 19px;
+}
+.optionButtons {
+    margin-top: 3%;
+}
+.playButton {
+    font-weight: bold;
+    background-color: #AA272F;
+    color: white;
+    height: 52px;
+    width: 160px;
+    border-color: #AA272F;
+    font-size: 15px;
+}
+
+.listContainer {
+    float: left;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+.listRow {
+    width: 100%;
+    height: 220px;
+    float: left;
+    overflow-x: scroll;
+    margin-top: 5%;
+}
+
+.listMovies {
+    float: left;
+    width: 153%;
+    height: 200px;
+}
+.movie {
+    list-style: none;
+    float: left;
+    height: 79%;
+    width: 18%;
+    margin-left: 2%;
+    background-color:white;
+}

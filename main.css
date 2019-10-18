@@ -41,13 +41,6 @@ header {
     margin-right: 4%;
 }
 
-.mainTitle {
-    font-size: 51px;
-    color:white;
-    text-transform: uppercase;
-    margin-top: 4%;
-
-}
 .secondaryTitle {
     font-weight: bold;
     font-size: 19px;
@@ -57,11 +50,11 @@ header {
 }
 .playButton {
     font-weight: bold;
-    background-color: #C4302B;
+    background-color: #AA272F;
     color: white;
     height: 52px;
     width: 160px;
-    border-color: #db0000;
+    border-color: #AA272F;
     font-size: 15px;
 }
 
@@ -120,7 +113,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
+    height: 40%;
   }
 
 form {
@@ -194,7 +188,111 @@ h4 {
     color: #9b9b9b;
     line-height: 1.5;
 }
+/*carrusel inicio*/
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
 
+.item{
+    background:none;    
+    text-align: center;
+    height: 500px !important;
+}
+
+.carousel{
+    margin-top: 20px;
+}
+
+.bs-example{
+	margin: 20px;
+}
+
+.carousel.carousel-fade .item {
+  opacity:0;
+  filter: alpha(opacity=0); /* ie fix */
+}
+
+.carousel.carousel-fade .active.item {
+    opacity:1;
+    filter: alpha(opacity=100); /* ie fix */
+}
+ /*fin carrusel */
+
+/* Testimonial CSS Code Start */
+/* background */
+.carousel-bg {
+    background-color: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  /* quote */
+  .quote-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-top: 60px;
+    width: 80px;
+  }
+  /* text-style */
+  .testimonial-style .testimonial-caption-style {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    color: #354052;
+    line-height: 30px;
+    bottom: 40%;
+    text-shadow: none;
+    top: 10%;
+  }
+  .testimonial-style .testimonial-authors {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    color: #354052;
+    line-height: 30px;
+    margin-top: 40px;
+  }
+  /* carousel-height-control */
+  .testimonial-style .carousel-inner > .item {
+    padding-top: auto;
+    padding-bottom: auto;
+    height: 380px;
+  }
+  /* carousel-left-right-control */
+  .testimonial-style .carousel-control.left {
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+  }
+  .testimonial-style .carousel-control.right {
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+  }
+  .testimonial-style .carousel-control {
+    color: #354052;
+  }
+  .testimonial-style .carousel-control:hover {
+    color: #354052;
+    text-decoration: none;
+    transition: background-color 1s ease;
+  }
+  /* indicators */
+  .testimonial-style .carousel-indicators .active {
+    background-color: #fff;
+    width: 14px;
+    height: 14px;
+    transition: background 1s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  .testimonial-style .carousel-indicators li {
+    border: 2px solid #354052;
+    background-color: #354052;
+  }
+  /* Textimonial CSS Code End */
 /* ///// inputs /////*/
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
@@ -268,7 +366,7 @@ textarea {
 }
 
 .submit-btn {
-    float:right;
+    float: right;
     padding: 7px 35px;
     border-radius: 60px;
     display: inline-block;
