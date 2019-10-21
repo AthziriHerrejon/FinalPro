@@ -1,7 +1,7 @@
 body {
     background-color: black;
     font-family:'Roboto', sans-serif;
-    color:white;
+    color:none;
 }
 header {
     float: left;
@@ -70,25 +70,16 @@ header {
     margin-top: 5%;
     width: 100%;
     height: auto;
+    color:none;
+    background: none;
 }
-.listRow {
-    width: 100%;
-    height: 220px;
-    float: left;
-    overflow-x: scroll;
-    margin-top: 5%;
+.parrafo {
+    color: whitesmoke;
+    background: none;
 }
 
 .listMovies {
     float: left;
     width: 153%;
     height: 200px;
-}
-.movie {
-    list-style: none;
-    float: left;
-    height: 79%;
-    width: 18%;
-    margin-left: 2%;
-    background-color:white;
 }
