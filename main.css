@@ -5,7 +5,7 @@ body {
 }
 header {
     float: left;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
     width: 90%;
     padding-top: 1%;
@@ -16,7 +16,9 @@ header {
     width: 30%!important;
     height: 10% !important;
     font-size: 14px;
+    color:white;
     margin-top: 1%;
+
 }
  
 .header-image #description {
@@ -198,7 +200,7 @@ h4 {
 h2{
     margin: 0;     
     color: #666;
-    padding-top: 90px;
+    padding-top: 10px !important;
     font-size: 52px;
     font-family: "trebuchet ms", sans-serif;    
 }
@@ -214,11 +216,11 @@ h2{
 }
 
 .bs-example{
-	margin: 20px;
+	margin: -40px;
 }
 
 .carousel.carousel-fade .item {
-  opacity:0;
+  opacity:5%;
   filter: alpha(opacity=0); /* ie fix */
 }
 
@@ -248,7 +250,7 @@ h2{
     font-family: "Roboto";
     font-weight: 400;
     font-size: 24px;
-    color: #354052;
+    color: white;
     line-height: 30px;
     bottom: 40%;
     text-shadow: none;
@@ -258,7 +260,7 @@ h2{
     font-family: "Roboto";
     font-weight: 700;
     font-size: 20px;
-    color: #354052;
+    color: white;
     line-height: 30px;
     margin-top: 40px;
   }
@@ -280,10 +282,10 @@ h2{
     text-shadow: none;
   }
   .testimonial-style .carousel-control {
-    color: #354052;
+    color: white;
   }
   .testimonial-style .carousel-control:hover {
-    color: #354052;
+    color: white;
     text-decoration: none;
     transition: background-color 1s ease;
   }
@@ -376,7 +378,7 @@ textarea {
     padding: 7px 35px;
     border-radius: 60px;
     display: inline-block;
-    background-color: red;
+    background-color:#d9534f;
     color: white;
     font-size: 14px;
     cursor: pointer;

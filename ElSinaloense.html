@@ -18,6 +18,9 @@
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
 <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!--CODIGO BOTONES-->
  
         <title>El Sinaloense</title>
@@ -28,14 +31,50 @@
 <body>
     <!--START Header-->
     <header >
-        <div class="littleLogo">Logo</div>
+        <div class="littleLogo"></div>
+        
         <div class="headerOptions">
             <ul>
-              <li><a href=https://www.vice.com/es/article/a3d4xg/la-historia-de-como-taco-bell-fracaso-en-mexico-fastfoodweek2017 target="_blank">Ingresar</a></li>
+              <li><a href=https://www.vice.com/es/article/a3d4xg/la-historia-de-como-taco-bell-fracaso-en-mexico-fastfoodweek2017 target="_blank">Reservaciones</a></li>
               <li><a href=https://www.vice.com/es/article/a3d4xg/la-historia-de-como-taco-bell-fracaso-en-mexico-fastfoodweek2017 target="_blank">Contáctanos</a></li>
                 <li><a href=https://www.vice.com/es/article/a3d4xg/la-historia-de-como-taco-bell-fracaso-en-mexico-fastfoodweek2017 target="_blank">Nuestra Historia</a></li>
-                <li><a href="http://www.dia-food.com/wp/wp-content/uploads/2015/11/Taco-Bell-Menu.pdf" target="_blank">Menú</a></li>
-                <button type="button" class="btn btn-danger btn-lg">Servicio a domicilio</button>
+                <li><a href="https://scontent.fgdl5-2.fna.fbcdn.net/v/t1.15752-9/74454143_1007453969601287_5088880082131353600_n.png?_nc_cat=105&_nc_oc=AQnfBTVou3GJJJKnITlDjfxO5553uXfuJCyJtTYjcSYPbI0y5taU1SpwhcztIu1wajo&_nc_ht=scontent.fgdl5-2.fna&oh=7a5d8346784122d460950002afe5eba3&oe=5E559336" target="_blank">Menú</a></li>
+
+                <!--BOTON MODAL-->
+                <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
+    Servicio a domicilio
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Elige el método de envío de tu preferencia</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <ul>
+         <img src=" http://www.movin925.com/wp-content/uploads/2017/06/uber-eats-logo.png">
+         <img src="http://margherita.mx/wp-content/uploads/2018/08/rappi-logo.png">
+        </ul>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
             </ul>
         </div>
     </header>
@@ -43,9 +82,9 @@
     <div id="container">
         <!--START Highlight Container-->
           <body>
-          <ul>
-            <li><a class="direccion"><a href="https://goo.gl/maps/MoxL4F127fHG2fuw7"target="_blank">Dirección</a>
-          </ul>
+            <div style=" text-align: left; height: 50px; padding-top: 15px; color:whitesmoke;">
+              <a href="https://goo.gl/maps/MoxL4F127fHG2fuw7"target="_blank">Dirección</a>
+            </div>
           <!--Se acaba barra de dirección !-->
         <!-- END Highlight Container-->
         <!--START List Container-->
@@ -62,17 +101,17 @@
                        <!-- Carousel items -->
                         <div class="carousel-inner">
                             <div class="active item carousel-fade">
-                                <img src=https://media.gettyimages.com/photos/food-story-on-posole-on-wednesday-december-11-2013-some-of-the-side-picture-id456611449?s=2048x2048>
+                                <img src="https://scontent.fgdl5-2.fna.fbcdn.net/v/t1.15752-9/75137804_2541236449325354_5440511309512704000_n.png?_nc_cat=108&_nc_oc=AQlc17zHVabgRHt1SKmxUHvhz3gI908NBTfHoQQUNhT13Hxu4q_8Wm3FHkBGZU_hFYo&_nc_ht=scontent.fgdl5-2.fna&oh=698b6f07755c572f561a6deca7871380&oe=5E5E5C25">
                                 <div class="carousel-caption">
                                 </div>
                             </div>
                             <div class="item carousel-fade">
-                                <img src=https://cdn2.cocinadelirante.com/sites/default/files/images/2017/06/chimichangasonorense.jpg>
+                                <img src="https://scontent.fgdl5-2.fna.fbcdn.net/v/t1.15752-9/74793284_554109992005431_2016721981398843392_n.png?_nc_cat=109&_nc_oc=AQlFOCswjqtzBYd9dCIinUwoyiBMPH5EY6gNbAh08vZ051yl-9XoHzoIISJrUv0SYqU&_nc_ht=scontent.fgdl5-2.fna&oh=1c365006ed4562b847b58255cc5bb705&oe=5E465852">
                                 <div class="carousel-caption">
                                 </div>
                             </div>
                             <div class="item carousel-fade">
-                                <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZaQVgOiPgmHIKLdEktG9-tFfK5rEc4QNiSILSodq8dWzXzOk8>
+                                <img src="https://scontent.fgdl5-2.fna.fbcdn.net/v/t1.15752-9/74602102_729213360893970_368402640880533504_n.png?_nc_cat=108&_nc_oc=AQnTJeguy-fYQGra_AQFteqaOKwPGSIHC40aOUv7cYkL_pxAL5E30b3vBucLRIQe8sc&_nc_ht=scontent.fgdl5-2.fna&oh=653e14d153fb2ca0944ecf24a9a5268b&oe=5E4F9CAB">
                                 <div class="carousel-caption">
                                   
                                 </div>
@@ -88,6 +127,7 @@
                     </div>
                 </div>
                 <!--FIN CARRUSEL-->
+               
 <!--INCLUIR FORMULARIO  "atendemos evento"-->
 <form action="/my-handling-form-page" method="post">
     <div class="container">
@@ -148,20 +188,20 @@
                           <div class="carousel-inner">
                             <div class="item active">
                               <div class="carousel-caption testimonial-caption-style">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat diam.</p>
-                                <p class="testimonial-authors">Person 1</p>
+                                <p>"Siempre es un placer visitar El Sinaloense. Los sabores me hacen sentir como en casa, y el personal es muy atento."</p>
+                                <p class="testimonial-authors">José Manuel López</p>
                               </div>
                             </div>
                             <div class="item">
                               <div class="carousel-caption testimonial-caption-style">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat diam.</p>
-                                <p class="testimonial-authors">Person 2</p>
+                                <p>"¡Los tamales son deliciosos! Nunca faltan mis eventos empresariales, y mis invitados quedan encantados!"</p>
+                                <p class="testimonial-authors">Ana María Gascón</p>
                               </div>
                             </div>
                             <div class="item">
                               <div class="carousel-caption testimonial-caption-style">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat diam.</p>
-                                <p class="testimonial-authors">Person 3</p>
+                                <p>¡El servicio es excelente! El Sinaloense es mi opción preferida cuando de comer rico se trata."</p>
+                                <p class="testimonial-authors">Miguel Chávez</p>
                               </div>
                             </div>
                           </div>
